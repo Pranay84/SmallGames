@@ -1,0 +1,26 @@
+.linkClass{
+    text-decoration: none;
+}
+
+.ProfileContainer{
+    background-color: white;
+    list-style-type: none;
+    padding-left: 0px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: -45px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.ProfileContainer::before{
+    content: '';
+    position: absolute;
+    top: -0.7rem;
+    right: 2rem;
+}

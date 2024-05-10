@@ -1,0 +1,23 @@
+.MainPopup{
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.MainContainer{
+    background-color: #0e0c11;
+    height: 65vh;
+}
+
+.popupButton{
+    background-color: #3b71ca;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
